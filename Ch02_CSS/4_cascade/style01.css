@@ -1,0 +1,8 @@
+p{
+	color: red;
+}
+
+/* 나중에 적용된 CSS 속성값의 우선순위가 높음 */
+p{
+	color: blue;
+}
