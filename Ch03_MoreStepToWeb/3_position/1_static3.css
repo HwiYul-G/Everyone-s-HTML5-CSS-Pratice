@@ -1,0 +1,15 @@
+#position_static_parent{
+	width: 500px;
+	/* static 속성값은 부모의 높이에 영향을 줄 수 있다. */
+	/* height: 500px; */
+	background-color: yellow;
+}
+
+#position_static_child{
+	position: static;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	/* margin-top 100px  */
+	/* top: 100px;*/
+}

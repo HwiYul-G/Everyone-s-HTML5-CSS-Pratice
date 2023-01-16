@@ -1,0 +1,20 @@
+/*첫 번재 형제가 3차원이고
+  두 번재 형제가 2차원인 경우*/
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.first {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-color: yellow;
+}
+
+.second {
+	position: static;
+	width: 100%;
+	height: 300px;
+	background-color: blue;
+}

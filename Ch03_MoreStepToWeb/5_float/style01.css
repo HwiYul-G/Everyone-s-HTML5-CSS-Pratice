@@ -1,0 +1,14 @@
+/* 부모<body> 태그를 기준으로 왼쪽 끝이나 오른쪽 끝에 배치한다. */
+#left {
+	float: left;
+	width: 200px;
+	height: 400px;
+	background-color: yellow;
+}
+
+#right{
+	float: right;
+	width: 200px;
+	height: 400px;
+	background-color: blue;
+}

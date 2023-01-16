@@ -1,0 +1,24 @@
+#box1{
+	width:500px;
+	height: 200px;
+	background-color: gray;
+}
+
+#position_absolute_parent{
+	/* 부모가 relative 속성값을 갖고 있을 때,
+		top 속성을 사용하면 
+		좌표가 부모를 기준으로 형성된다. */
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background-color: yellow;
+}
+
+#position_absolute_child{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	/* 브라우저 왼쪽 상단을 기준으로 top 속성이 적용된다. */
+	top: 100px;
+}

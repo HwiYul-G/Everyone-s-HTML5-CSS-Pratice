@@ -1,0 +1,25 @@
+#box1{
+	width: 500px;
+	height: 200px;
+	background-color: gray;
+}
+
+#position_fixed_parent{
+	width: 500px;
+	height: 500px;
+	background-color: yellow;
+}
+
+#position_fixed_child{
+	/* fixed 속성값은 선택된 태그를 화면에 고정시킨다. */
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+
+#box2{
+	width: 500px;
+	height: 2000px;
+	background-color: pink;
+}

@@ -1,0 +1,15 @@
+#position_static_parent{
+	width: 500px;
+	height: 500px;
+	background-color: yellow;
+}
+
+#position_static_child{
+	position: static;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	/* margin-top 100px  */
+	/* static 속성갑소가 top 속성값은 함께 사용할 수 없다. */
+	top: 100px;
+}
